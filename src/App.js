@@ -4,12 +4,12 @@ import Topo from "./components/Topo";
 import Principal from "./components/Principal";
 import Rodape from "./components/Rodape";
 
-class App extends Component {
-  state = {
-    isbn: "978-85-7522-xxx-x",
-    titulo: "React",
-    autor: "Maujor"
-  };
+// class App extends Component {
+//   state = {
+//     isbn: "978-85-7522-xxx-x",
+//     titulo: "React",
+//     autor: "Maujor"
+//   };
 
   // componentDidMount()
   // {
@@ -17,33 +17,29 @@ class App extends Component {
   // };
 
 
-  render() {
-    return (
-      <p>
-        ISBN: {this.state.isbn}
-        <br />
-        Título: {this.state.titulo}
-        <br />
-        Autor: {this.state.autor}
-        <br />
-      </p>
-    );
-  }
-}
+  // render() {
+  //   return (
+  //     <p>
+  //       ISBN: {this.state.isbn}
+  //       <br />
+  //       Título: {this.state.titulo}
+  //       <br />
+  //       Autor: {this.state.autor}
+  //       <br />
+  //     </p>
+  //   );
+  // }
+//}
 
-// const App = () => {
-//   return (
-//     <>
-//     <Topo />
-//     <Principal />
-//     <Rodape />
-//     </>
-//   );
-// };
-
-
-
-
+const App = () => {
+  return (
+    <>
+    <Topo />
+    <Principal />
+    <Rodape />
+    </>
+  );
+};
 
 export default App;
 
